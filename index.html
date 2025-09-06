@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <h1>todos</h1>
+    <form id="form">
+      <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+
+      <ul class="todos" id="todos"></ul>
+    </form>
+    <div class="instructions" style="background: linear-gradient(135deg, #1a237e 0%, #0d133d 100%); color: #eee; padding: 16px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); margin-top: 24px;">
+      <small>
+      <strong style="color: #fff;">Instructions:</strong><br>
+      <span>• Left click to mark a task as completed.</span><br>
+      <span>• Right click to delete a task.</span>
+      </small>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
